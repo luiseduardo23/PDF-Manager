@@ -20,5 +20,8 @@ of.pack()
 mf= Button(root, text="Unir archivos", command= pdf_manager.unirArchivos, width=40, font="arial 20", bd=4)
 mf.pack()
 
+#Botón Dividir Archivo.
+mf= Button(root, text="Dividir archivo", command=lambda: pdf_manager.dividirArchivo(10), width=40, font="arial 20", bd=4)
+mf.pack()
 
 root.mainloop()

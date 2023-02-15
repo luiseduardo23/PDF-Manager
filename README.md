@@ -1,4 +1,4 @@
 # PDF-Manager
 
-#Librerías necesarias:
-- tkPDFViewer
+#Librerías necesarias a instalar:
+- PyPDF2
